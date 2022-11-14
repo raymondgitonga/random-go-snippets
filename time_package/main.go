@@ -6,7 +6,20 @@ import (
 )
 
 func main() {
-	parseTime()
+	//parseTime()
+
+	yom := fmt.Sprintf("2022-04%s", "-01")
+	year, err := time.Parse("2006-01-02", yom)
+
+	year.Month()
+
+	if err != nil {
+		fmt.Println(err)
+	}
+
+	fmt.Println(year)
+
+	//timeDifference()
 
 }
 
@@ -77,7 +90,7 @@ func timeDifference() {
 	secondTime := time.Date(2021, 12, 25, 16, 40, 55, 200, time.UTC)
 	fmt.Println("The second time is", secondTime)
 
-	fmt.Println("Duration between first and second time is", firstTime.Sub(secondTime))
-	fmt.Println("Duration between second and first time is", secondTime.Sub(firstTime))
+	fmt.Println("Duration between first and second time is", firstTime.Sub(secondTime).Hours())
+	fmt.Println("Duration between second and first time is", secondTime.Sub(firstTime).Hours())
 
 }
