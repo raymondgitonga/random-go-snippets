@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68f871f3-551b-4388-91e8-2009deee0f7f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/method_chaining/chaining_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/method_chaining/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/time_package/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/time_package/main.go" afterDir="false" />
+    <list default="true" id="68f871f3-551b-4388-91e8-2009deee0f7f" name="Changes" comment="Go embed">
+      <change afterPath="$PROJECT_DIR$/go_embed/files/names.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_embed/files/places.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_embed/files/test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_embed/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +55,21 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RunManager" selected="Go Test.Test_MethodChaining in github.com/raymondgitonga/random-go-snippets/method_chaining">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/go_embed" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build github.com/raymondgitonga/random-go-snippets/go_embed">
+    <configuration name="go build github.com/raymondgitonga/random-go-snippets/go_embed" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="random-go-snippets" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/raymondgitonga/random-go-snippets/go_embed" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/go_embed/main.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build github.com/raymondgitonga/random-go-snippets/method_chaining" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="random-go-snippets" />
       <working_directory value="$PROJECT_DIR$" />
@@ -68,13 +79,13 @@
       <filePath value="$PROJECT_DIR$/method_chaining/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build github.com/raymondgitonga/random-go-snippets/time_package" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build github.com/raymondgitonga/random-go-snippets/race_conditions" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="random-go-snippets" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/raymondgitonga/random-go-snippets/time_package" />
+      <package value="github.com/raymondgitonga/random-go-snippets/race_conditions" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/time_package/main.go" />
+      <filePath value="$PROJECT_DIR$/race_conditions/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="Test_MethodChaining in github.com/raymondgitonga/random-go-snippets/method_chaining" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -87,18 +98,6 @@
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTest_MethodChaining\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test_MethodChaining/Test_charge in github.com/raymondgitonga/random-go-snippets/method_chaining" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="random-go-snippets" />
-      <working_directory value="$PROJECT_DIR$/method_chaining" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/raymondgitonga/random-go-snippets/method_chaining" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTest_MethodChaining\E$/^\QTest_charge\E$" />
       <method v="2" />
     </configuration>
     <configuration name="Test_MethodChaining/Test_whole_chain in github.com/raymondgitonga/random-go-snippets/method_chaining" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -115,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/raymondgitonga/random-go-snippets/go_embed" />
+        <item itemvalue="Go Build.go build github.com/raymondgitonga/random-go-snippets/race_conditions" />
         <item itemvalue="Go Test.Test_MethodChaining in github.com/raymondgitonga/random-go-snippets/method_chaining" />
         <item itemvalue="Go Build.go build github.com/raymondgitonga/random-go-snippets/method_chaining" />
         <item itemvalue="Go Test.Test_MethodChaining/Test_whole_chain in github.com/raymondgitonga/random-go-snippets/method_chaining" />
-        <item itemvalue="Go Test.Test_MethodChaining/Test_charge in github.com/raymondgitonga/random-go-snippets/method_chaining" />
-        <item itemvalue="Go Build.go build github.com/raymondgitonga/random-go-snippets/time_package" />
       </list>
     </recent_temporary>
   </component>
@@ -137,6 +136,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Method chaining" />
+    <MESSAGE value="Go embed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Go embed" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
