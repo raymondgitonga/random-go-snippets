@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68f871f3-551b-4388-91e8-2009deee0f7f" name="Changes" comment="Go embed">
-      <change afterPath="$PROJECT_DIR$/benchmarks/slice_test.go" afterDir="false" />
+    <list default="true" id="68f871f3-551b-4388-91e8-2009deee0f7f" name="Changes" comment="Slice benchmarks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/benchmarks/slice_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/benchmarks/slice_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,19 +58,7 @@
       <recent name="$PROJECT_DIR$/go_embed" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.Benchmark_withoutSize in github.com/raymondgitonga/random-go-snippets/benchmarks">
-    <configuration name="Benchmark_WithAppend in github.com/raymondgitonga/random-go-snippets/benchmarks" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="random-go-snippets" />
-      <working_directory value="$PROJECT_DIR$/benchmarks" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/raymondgitonga/random-go-snippets/benchmarks" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gobench" />
-      <pattern value="^\QBenchmark_WithAppend\E$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.go test github.com/raymondgitonga/random-go-snippets/benchmarks">
     <configuration name="Benchmark_fixedSize in github.com/raymondgitonga/random-go-snippets/benchmarks" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="random-go-snippets" />
       <working_directory value="$PROJECT_DIR$/benchmarks" />
@@ -119,13 +107,24 @@
       <pattern value="^\QBenchmark_withoutSize\E$" />
       <method v="2" />
     </configuration>
+    <configuration name="go test github.com/raymondgitonga/random-go-snippets/benchmarks" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="random-go-snippets" />
+      <working_directory value="$PROJECT_DIR$/benchmarks" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/raymondgitonga/random-go-snippets/benchmarks" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.Benchmark_withoutSize in github.com/raymondgitonga/random-go-snippets/benchmarks" />
+        <item itemvalue="Go Test.go test github.com/raymondgitonga/random-go-snippets/benchmarks" />
         <item itemvalue="Go Test.Benchmark_withSize in github.com/raymondgitonga/random-go-snippets/benchmarks" />
+        <item itemvalue="Go Test.Benchmark_withoutSize in github.com/raymondgitonga/random-go-snippets/benchmarks" />
         <item itemvalue="Go Test.Benchmark_fixedSize in github.com/raymondgitonga/random-go-snippets/benchmarks" />
         <item itemvalue="Go Test.Benchmark_withAppendToDefinedSlice in github.com/raymondgitonga/random-go-snippets/benchmarks" />
-        <item itemvalue="Go Test.Benchmark_WithAppend in github.com/raymondgitonga/random-go-snippets/benchmarks" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +146,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Method chaining" />
     <MESSAGE value="Go embed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Go embed" />
+    <MESSAGE value="Slice benchmarks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Slice benchmarks" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
