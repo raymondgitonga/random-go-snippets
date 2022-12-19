@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68f871f3-551b-4388-91e8-2009deee0f7f" name="Changes" comment="Slice benchmarks">
-      <change beforePath="$PROJECT_DIR$/benchmarks/slice_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/benchmarks/slice_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/no_return.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/no_return_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Go Application" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
@@ -31,33 +34,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go Application&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/raymondgitonga&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/Users/raymondgitonga",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/benchmarks" />
       <recent name="$PROJECT_DIR$/go_embed" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.go test github.com/raymondgitonga/random-go-snippets/benchmarks">
+  <component name="RunManager" selected="Go Test.TestLogger in github.com/raymondgitonga/random-go-snippets/testing">
     <configuration name="Benchmark_fixedSize in github.com/raymondgitonga/random-go-snippets/benchmarks" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="random-go-snippets" />
       <working_directory value="$PROJECT_DIR$/benchmarks" />
@@ -68,18 +71,6 @@
       <filePath value="$PROJECT_DIR$" />
       <framework value="gobench" />
       <pattern value="^\QBenchmark_fixedSize\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Benchmark_withAppendToDefinedSlice in github.com/raymondgitonga/random-go-snippets/benchmarks" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="random-go-snippets" />
-      <working_directory value="$PROJECT_DIR$/benchmarks" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/raymondgitonga/random-go-snippets/benchmarks" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gobench" />
-      <pattern value="^\QBenchmark_withAppendToDefinedSlice\E$" />
       <method v="2" />
     </configuration>
     <configuration name="Benchmark_withSize in github.com/raymondgitonga/random-go-snippets/benchmarks" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -106,6 +97,18 @@
       <pattern value="^\QBenchmark_withoutSize\E$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestLogger in github.com/raymondgitonga/random-go-snippets/testing" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="random-go-snippets" />
+      <working_directory value="$PROJECT_DIR$/testing" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/raymondgitonga/random-go-snippets/testing" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestLogger\E$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go test github.com/raymondgitonga/random-go-snippets/benchmarks" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="random-go-snippets" />
       <working_directory value="$PROJECT_DIR$/benchmarks" />
@@ -119,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestLogger in github.com/raymondgitonga/random-go-snippets/testing" />
         <item itemvalue="Go Test.go test github.com/raymondgitonga/random-go-snippets/benchmarks" />
         <item itemvalue="Go Test.Benchmark_withSize in github.com/raymondgitonga/random-go-snippets/benchmarks" />
         <item itemvalue="Go Test.Benchmark_withoutSize in github.com/raymondgitonga/random-go-snippets/benchmarks" />
         <item itemvalue="Go Test.Benchmark_fixedSize in github.com/raymondgitonga/random-go-snippets/benchmarks" />
-        <item itemvalue="Go Test.Benchmark_withAppendToDefinedSlice in github.com/raymondgitonga/random-go-snippets/benchmarks" />
       </list>
     </recent_temporary>
   </component>
