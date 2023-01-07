@@ -16,8 +16,6 @@ func TestLogger(t *testing.T) {
 		logger: log.Logger{},
 	}
 	v.logger.SetOutput(&buf)
-
 	v.calculate()
-
 	assert.Equal(t, "15", strings.TrimSpace(buf.String()))
 }
