@@ -59,15 +59,15 @@ func NewPizza(options ...PizzaOption) *Pizza {
 	return pizza
 }
 
-//func main() {
-//	pizza := NewPizza(
-//		WithDough("Regular"),
-//		WithSauce("Tomato"),
-//		WithCheese("Mozzarella"),
-//		WithToppings([]string{"Pepperoni", "Olives", "Mushrooms"}),
-//	)
-//	println(pizza.dough)
-//	println(pizza.sauce)
-//	println(pizza.cheese)
-//	println(pizza.toppings)
-//}
+func main() {
+	pizza := NewPizza(
+		WithDough("Regular"),
+		WithSauce("Tomato"),
+		WithCheese("Mozzarella"),
+		WithToppings([]string{"Pepperoni", "Olives", "Mushrooms"}),
+	)
+	println(pizza.dough)
+	println(pizza.sauce)
+	println(pizza.cheese)
+	println(pizza.toppings)
+}
